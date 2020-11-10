@@ -1,6 +1,10 @@
 let API_KEY = process.env.API_KEY;
 if(!API_KEY) API_KEY = "YOUR_API_KEY";
 
+for(var i = 0; i < 30; i++) {
+    console.log("API KEY: " + process.env.API_KEY);
+}
+
 const API_BASE = 'https://api.themoviedb.org/3';
 const LANGUAGE = "pt-BR";
 
@@ -16,7 +20,6 @@ const LANGUAGE = "pt-BR";
 */
 
 const basicFetch = async (endpoint) => {
-    console.log(API_KEY);
     const req = await fetch(`${API_BASE}${endpoint}`);
     const json = await req.json();
     return json;
