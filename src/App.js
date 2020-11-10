@@ -29,12 +29,13 @@ export default () => {
 
   useEffect(() => {
     const scrollListener = () => {
-      if(window.scrollY > 10) {
+      if(window.scrollY > 150) {
         setBlackHeader(true);
       } else {
         setBlackHeader(false);
       }
     }
+
     window.addEventListener('scroll', scrollListener);
 
     return () => {
@@ -67,8 +68,7 @@ export default () => {
       
 
       <footer>
-        Feito com <span role="img" aria-label="amor">❤️</span> por<br />
-        Wagner Rodrigues <br />
+        Feito com <span role="img" aria-label="amor">❤️</span> por Wagner Rodrigues <br />
         Direitos de imagem para Netflix <br />
         Dados pegos do site TheMovieDB.org
       </footer>

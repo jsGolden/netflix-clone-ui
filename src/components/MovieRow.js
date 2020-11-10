@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./MovieRow.css";
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
@@ -27,7 +27,7 @@ export default ({ title, items }) => {
   const swipe = useSwipeable({
     onSwipedRight: (eventData) => handleLeftArrow(),
     onSwipedLeft: (eventData) => handleRightArrow(),
-    preventDefaultTouchmoveEvent: true
+    preventDefaultTouchmoveEvent: true,
   });
 
   return (
