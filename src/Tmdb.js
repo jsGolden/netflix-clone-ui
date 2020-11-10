@@ -1,12 +1,10 @@
 let API_KEY = process.env.API_KEY;
 if(!API_KEY) API_KEY = "YOUR_API_KEY";
 
-for(var i = 0; i < 30; i++) {
-    console.log("API KEY: " + process.env.API_KEY);
-}
-
 const API_BASE = 'https://api.themoviedb.org/3';
 const LANGUAGE = "pt-BR";
+
+alert(process.env.API_KEY);
 
 /*
     - Originais Netflix
