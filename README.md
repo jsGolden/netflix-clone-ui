@@ -31,7 +31,7 @@ Desenvolvido [durante uma live no Youtube](https://www.youtube.com/watch?v=tBweo
 ## 📲 Demonstração
 
 Você também pode visualizar este projeto via [Heroku](https://www.heroku.com/):
-- [Netflix Clone UI](https://netflix-clone-ui-foolish.herokuapp.com/)
+- [Netflix Clone UI](https://netflix-clone-foolish-build.herokuapp.com/)
 Há uma possibilidade do servidor estar inativo.
 
 ## 📝 Licença
